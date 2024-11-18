@@ -44,4 +44,11 @@ Full ER diagram can be viewed in the design folder of this repository.
 ## Prerequisites
 MySQL Version Used: 8.0 and above. Languages: Python, PHP, or any other for front-end integration.
 
-- Tools: MySQL Workbench for database management. ### Installation Steps 1. Clone the Repository: bash git clone https://github.com/<your-username>/hospital-management-system.git cd hospital-management-system
+## Tools
+ MySQL Workbench for database management. 
+ ### Installation Steps 
+ 1. Clone the Repository: bash git clone https://github.com/<your-username>/hospital-management-system.git cd hospital-management-system
+ 2. Open the cloned folder in the location you cloned it
+ 3. Connect to an existing or a new database in mySQL workbench vs code or any other editor 
+ 4. Open the table_creation.sql file.
+ 5. Run the sql file and enjoy 👍👍🥳🥳

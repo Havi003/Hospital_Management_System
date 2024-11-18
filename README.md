@@ -46,7 +46,7 @@ MySQL Version Used: 8.0 and above. Languages: Python, PHP, or any other for fron
 
 ## Tools
 
-MySQL Workbench for database management.
+MySQL Workbench for database management , Install the latest version of git.
 
 ### Installation Steps
 
@@ -58,20 +58,13 @@ MySQL Workbench for database management.
 
 bash
 git clone https://github.com/<your-username>/hospital-management-system.git
-cd hospital-management-system
-Open the Cloned Folder:
 
-4. Navigate to the folder location where you cloned the repository.
+4. Open mysql Workbench
+5. Go to file 
+6. Open SQL script 
+7. Navigate to the folder location where you cloned the repository 
+8.  select table_creation_scripts click ok
 
-5. Connect to a Database:
-
-Use MySQL Workbench, VS Code, or any other preferred editor to connect to an existing or new database.
-
-6. Run the SQL File:
-
-7. Open the table_creation.sql file.
-
-8. Execute the SQL script to set up the database tables.
 
 Enjoy the Setup:
 

@@ -1,53 +1,47 @@
-# Hospital Management System (Health Systems)
+# Hospital Management System(Health Systems)
 
 ## Table of Contents
-1. Overview
+1. Introduction
 2. Features
 3. System Design
-4. Setup Instructions
-5. Usage Guide
+4. Installation Instructions
+5. Usage Guidelines
 6. Testing
-7. Contributors
+7. Donors
 8. License
 
 ### Overview
-The is a database-driven solution developed to streamline hospital administrative operations. It focuses on efficient management of patient records, room allocation, appointment scheduling, drug prescriptions, and physician schedules. The system ensures data integrity and enhances hospital workflows through automation.
+This is a database-driven solution designed to manage all the administrative functions of any hospital. It is targeted at managing patient records, room allotments, appointment scheduling, and medication and physician timetables with efficiency. The system thus checks data integrity and enhances hospital workflow with automation.
 
 
 
 # Features
-- Patient Management: Add, update, and retrieve patient details.
-- Room Allocation: Assign rooms based on availability dynamically.
+- Patient Management: creation, updating, pulling of information about patients.
+-Room Allotment: Rooms are alloted on dynamic availability.
 - Appointment Scheduling: Schedule and track appointments between patients and physicians.
-- Drug Prescription Management*: Store prescription data and track medications.
-- Reporting Tools: Generate advanced reports on appointments, prescriptions, and occupancy.
+- Prescription Management: Store prescription data, track medication administration.
+Reporting Tools:  Provides appointments, prescription, and occupancy reporting tools to the next level.
 
---
+
 
 ## System Design
 
 ### Core Tables
-- Patient Table: Stores patient details and admission numbers.
-- Room Tabe: Tracks room allocations and their respective buildings.
-- Physician Table: Manages physician details and specializations.
-- Appointment Table: Links patients with physicians for scheduled appointments.
-- Drug Table: Contains medication details and unique drug codes.
-- Drug Prescription Table: Tracks prescriptions issued to patients.
+- Patient Table: Stores information about patients with their admission number.
+- Room Table: Stores information about room allocations and their buildings.
+- Doctor Table: Maintains doctor information and specialties.
+- Appointment Table: This table links patients and physicians over scheduled appointments.
+Drug Table: Information of drugs with their unique code.
+Prescription Table-Drug: A table maintaining the drugs issued to the patient.
 
 ### ER Diagram
-Refer to the repository’s design folder for the full ER diagram.
+Full ER diagram can be viewed in the design folder of this repository.
 
 
 
 # Setup Instructions
 
 ## Prerequisites
-- Database: MySQL 8.0 or higher.
-- Languages: Python, PHP, or any other language for front-end integration.
-- Tools: MySQL Workbench for database management.
+MySQL Version Used: 8.0 and above. Languages: Python, PHP, or any other for front-end integration.
 
-### Installation Steps
-1. Clone the Repository:
-   ```bash
-   git clone https://github.com/<username>/hospital-management-system.git
-   cd hospital-management-system
+- Tools: MySQL Workbench for database management. ### Installation Steps 1. Clone the Repository: bash git clone https://github.com/<your-username>/hospital-management-system.git cd hospital-management-system
